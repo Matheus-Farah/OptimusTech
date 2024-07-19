@@ -1,0 +1,74 @@
+/* Section Principal */
+
+.container__depoimentos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 32px;
+  padding: 64px;
+
+  background-color: var(--vermelho-forte-opacidade);
+
+  border-radius: 16px;
+
+  width: 1216px;
+  text-align: center;
+
+  margin: auto;
+}
+
+/* Div dos textos da seção */
+
+.container__depoimentos__textos {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
+
+.container__depoimentos__texto {
+  font-size: 14px;
+  font-weight: 600;
+
+  color: var(--vermelho-escuro);
+}
+
+.container__depoimentos__titulo {
+  font-size: 36px;
+
+  color: var(--azul-muito-escuro);
+
+  width: 1088px;
+}
+
+/* Div do Colaborador */
+
+.container__depoimentos__colaborador {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
+
+.colaborador__imagem {
+  width: 56px;
+  height: 56px;
+
+  border-radius: 50%;
+}
+
+.colaborador__info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.container__depoimentos__colaborador__nome {
+  color: var(--azul-muito-escuro);
+}
+
+.container__depoimentos__colaborador__area {
+  font-size: 14px;
+  font-weight: 400;
+}

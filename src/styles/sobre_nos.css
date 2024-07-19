@@ -1,0 +1,39 @@
+/* Section Principal */
+
+.container__sobre-nos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+
+  padding: 96px 0;
+}
+
+/* Span Sobre nós */
+
+.container__sobre-nos__texto {
+  font-weight: 600;
+
+  color: var(--vermelho-escuro);
+}
+
+/* Título da Section */
+
+.container__sobre-nos__titulo {
+  font-size: 48px;
+  font-weight: 600;
+
+  color: var(--azul-muito-escuro);
+}
+
+/* Parágrafo da Section */
+
+.container__sobre-nos__info {
+  font-size: 20px;
+  font-weight: 400;
+
+  padding-top: 12px;
+  width: 791px;
+
+  text-align: center;
+}

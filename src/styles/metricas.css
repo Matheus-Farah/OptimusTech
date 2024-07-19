@@ -1,0 +1,48 @@
+/* Section principal */
+
+.container__metricas {
+  padding: 0 80px 96px 80px;
+}
+
+/* Lista */
+
+.lista-metricas {
+  display: flex;
+  gap: 32px;
+  justify-content: space-between;
+
+  padding-inline: 112px;
+}
+
+.lista-metricas li {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  width: 280px;
+}
+
+/* Título das lis */
+
+.lista-metricas__titulo {
+  font-size: 60px;
+  font-weight: 600;
+
+  color: var(--vermelho-escuro);
+}
+
+/* Subtitulo das lis */
+
+.lista-metricas__subTitulo {
+  font-size: 18px;
+
+  color: var(--azul-muito-escuro);
+
+  padding-top: 8px;
+}
+
+/* Parágrafo das lis */
+
+.lista-metricas__info {
+  font-weight: 400;
+}

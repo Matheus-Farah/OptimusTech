@@ -1,0 +1,74 @@
+/* Container Principal */
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 18px 112px;
+
+  width: auto;
+  height: 80px;
+}
+
+/* Section com a Logo e Nome da Empresa */
+
+.cabecalho__empresa {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.cabecalho__empresa__nome {
+  font-size: 18px;
+  color: var(--azul-escuro-medio);
+}
+
+/* Section com os links de Navegação */
+
+.cabecalho__navegacao__links {
+  display: flex;
+  gap: 32px;
+}
+
+.cabecalho__navegacao__links__item {
+  text-decoration: none;
+
+  color: var(--azul-acinzentado-escuro);
+}
+
+/* Section com os Botões */
+
+.cabecalho__botoes {
+  display: flex;
+  gap: 12px;
+}
+
+.botao {
+  padding: 10px 18px;
+
+  border-radius: 8px;
+
+  box-sizing: border-box;
+
+  font-family: var(--fonte-principal);
+  font-weight: var(--fonte-principal--peso);
+  font-size: var(--fonte-principal--tamanho);
+
+  cursor: pointer;
+}
+
+.entrar {
+  background-color: transparent;
+  color: var(--azul-acinzentado-escuro);
+
+  border: none;
+}
+
+.cadastrar {
+  background-color: var(--vermelho-escuro);
+  color: var(--branco);
+
+  border: 1px solid var(--vermelho-escuro);
+  box-shadow: 0 1px 2px var(--azul-muito-escuro) 5%;
+}

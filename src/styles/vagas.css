@@ -1,0 +1,97 @@
+/* Section Principal */
+
+.container__vagas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 0 80px 96px 80px;
+  gap: 64px;
+}
+
+/* Div de Textos */
+
+.container__vagas__textos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 20px;
+}
+
+.container__vagas__texto {
+  font-size: 14px;
+
+  color: var(--vermelho-escuro);
+  background-color: var(--vermelho-forte-opacidade);
+
+  padding: 4px 12px;
+
+  border-radius: 16px;
+}
+
+.container__vagas__titulo {
+  font-size: 36px;
+  font-weight: 600;
+
+  color: var(--azul-muito-escuro);
+
+  padding-bottom: 20px;
+}
+
+.container__vagas__info {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+/* Div da seção de vagas */
+
+.container__vagas__secao {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
+
+.lista-vagas {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.lista-vagas__titulo {
+  font-size: 20px;
+
+  color: var(--azul-muito-escuro);
+}
+
+/* Lista das Vagas */
+
+.vagas {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.lista-vagas li {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+
+  border: 1px solid var(--cinza-claro);
+  border-radius: 16px;
+
+  padding: 24px 24px 28px 24px;
+
+  width: 768px;
+}
+
+.vagas__titulo {
+  font-size: 18px;
+
+  color: var(--azul-muito-escuro);
+}
+
+.vagas__info__salarial {
+  display: flex;
+  gap: 24px;
+}
